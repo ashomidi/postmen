@@ -1,0 +1,146 @@
+.App-header {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: #0971fe !important;
+}
+
+.nk-menu-link.active em {
+  color: #0971fe !important;
+}
+
+.closeIcon {
+  color: #222 !important;
+  font-size: 1rem !important;
+  position: relative;
+  top: 2px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.closeIcon:hover {
+  color: #0971fe !important;
+}
+
+.btn-save {
+  background-color: rgb(243, 243, 243);
+}
+
+.btn-save:hover {
+  background-color: rgb(233, 233, 233);
+}
+
+.btn:focus {
+  box-shadow: none !important;
+}
+
+li small {
+  font-size: 0.7rem;
+  white-space: nowrap;
+}
+
+.plus_icon {
+  font-size: 1.3rem;
+  border: 1px solid #dbdfea;
+  padding: 8px;
+  cursor: pointer;
+  color: #5e5e5e;
+  border-radius: 4px;
+}
+
+.plus_icon:hover {
+  color: #0971fe;
+}
+
+.nav-tabs .nav-link {
+  border-radius: 0 !important;
+  border-bottom: 1px solid #dbdfea;
+  padding: 10px;
+}
+
+.txtarea {
+  resize: none;
+  overflow-y: scroll;
+  height: 300px !important;
+}
+
+.table {
+  background-color: #fcfcfc;
+}
+
+.table input {
+  background-color: #fcfcfc;
+}
+
+.color-body {
+  color: #526484;
+}
+
+.crossIcon:hover {
+  color: #0971fe;
+}
+
+.ladder {
+  margin: 1em 0;
+}
+.ladder ul {
+  font-weight: bold;
+  color: #6e82a5;
+  margin: 0;
+  line-height: 1.1;
+}
+.ladder ul ul li {
+  height: auto;
+  max-height: 4em;
+  padding: 0;
+  transition: max-height 0.3s 0 ease-in;
+  overflow: visible;
+}
+.ladder ul .collapse li {
+  height: 0;
+  max-height: 0;
+  overflow: hidden;
+}
+.ladder li {
+  list-style-type: none;
+  padding: 0;
+}
+.ladder a {
+  text-decoration: none;
+  padding: 0.5em 1em;
+  display: block;
+}
+.ladder a:link,
+.ladder a:visited {
+  color: #6e82a5;
+}
+.ladder a:hover {
+  color: #0971fe;
+}
+
+table > :not(:first-child) {
+  border-top: 1px solid currentColor !important;
+}
+
+li.task-list-item {
+  list-style-type: none;
+}
+
+.wmde-markdown {
+  margin-top: 50px;
+  font-family: inherit !important;
+}
+
+.error {
+  border: 1px solid red;
+}
+
+.nk-sidebar-main {
+  overflow-x: scroll;
+}
